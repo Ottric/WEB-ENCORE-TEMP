@@ -1,0 +1,27 @@
+{
+  "name": "encore-ts-starter",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Encore Typescript Starter",
+  "license": "MPL-2.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --passWithNoTests",
+    "dev": "encore run --listen $(hostname -I)",
+    "format": "prettier --write \"**/*.{ts,tsx}\""
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20.5.7",
+    "typescript": "^5.9.3",
+    "vitest": "^1.5.0"
+  },
+  "dependencies": {
+    "encore.dev": "^1.56.7",
+    "jsonwebtoken": "^9.0.3",
+    "ts-results-es": "^7.0.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.13.0"
+  }
+}
