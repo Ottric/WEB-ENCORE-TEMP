@@ -1,0 +1,19 @@
+{
+  "servers": {
+    "encore-mcp": {
+      "args": [
+        "mcp",
+        "run",
+        "--app=services-5ia2"
+      ],
+      "command": "encore"
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "shadcn@latest",
+        "mcp"
+      ]
+    }
+  }
+}
