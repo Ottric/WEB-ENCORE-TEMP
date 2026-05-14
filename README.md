@@ -22,6 +22,7 @@ This root README is only a workspace index. Detailed guides are split by app:
 To start APISIX:
 
 ```bash
+cd apps/router
 docker compose up -d
 ```
 
